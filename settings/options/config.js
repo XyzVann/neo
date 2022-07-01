@@ -42,11 +42,11 @@ free: 20
 }
 
 // MEDIA
-global.image = fs.readFileSync("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbL7sGqMrPrl14HNbijFDrxIi7MWmMGSASnBCM0pbszeYlgj5-0E526Ds&s=10")
-global.thumbnail = fs.readFileSync("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbL7sGqMrPrl14HNbijFDrxIi7MWmMGSASnBCM0pbszeYlgj5-0E526Ds&s=10")
+global.image = fs.readFileSync("./settings/media/image.jpg")
+global.thumbnail = fs.readFileSync("./settings/media/thumb.jpg")
 global.qris = fs.readFileSync("./settings/media/qris.jpg")
-global.scimg = fs.readFileSync("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbL7sGqMrPrl14HNbijFDrxIi7MWmMGSASnBCM0pbszeYlgj5-0E526Ds&s=10")
-global.mnuimg = fs.readFileSync("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbL7sGqMrPrl14HNbijFDrxIi7MWmMGSASnBCM0pbszeYlgj5-0E526Ds&s=10")
+global.scimg = fs.readFileSync("./settings/media/script.jpg")
+global.mnuimg = fs.readFileSync("./settings/media/menu.jpg")
 global.sewimg = fs.readFileSync("./settings/media/sewa.jpg")
 global.rulsimg = fs.readFileSync("./settings/media/rules.jpg")
 global.fitimg = fs.readFileSync("./settings/media/list.jpg")
